@@ -11,7 +11,7 @@
       <AdditionalIncludeDirectories>$(WindowsSDKDir)Include\$(WindowsTargetPlatformVersion)\um;$(WindowsSDKDir)Include\$(WindowsTargetPlatformVersion)\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>$(WindowsSDKDir)Lib\$(WindowsTargetPlatformVersion)\um\$(GDTPlatform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(WindowsSDKDir)Lib\$(WindowsTargetPlatformVersion)\um\$(AMDTPlatform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <ResourceCompile>
       <AdditionalIncludeDirectories>$(WindowsSDKDir)Include\$(WindowsTargetPlatformVersion)\um;$(WindowsSDKDir)Include\$(WindowsTargetPlatformVersion)\shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
